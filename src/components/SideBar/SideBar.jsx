@@ -1,8 +1,7 @@
 import './sideBar.scss';
 import { Link, NavLink} from 'react-router-dom';
 import logoS from '../../assets/images/logo-s.png'
-import logoSub from '../../assets/images/logo_sub.png'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faComputer } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -18,6 +17,9 @@ export default function SideBar(){
                 </NavLink>
                 <NavLink exact= 'true' activeclassname='active' className='about-link' to='/about'>
                     <FontAwesomeIcon icon={faUser} color= '#171219' />
+                </NavLink>
+                <NavLink exact= 'true' activeclassname='active' className='projects-link' to='/projects'>
+                    <FontAwesomeIcon icon={faComputer} color= '#171219' />
                 </NavLink>
                 <NavLink exact= 'true' activeclassname='active' className='contact-link' to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color= '#171219' />
