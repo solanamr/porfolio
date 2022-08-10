@@ -1,30 +1,15 @@
 import logo from '../../assets/images/logo-s.png'
-import './home.scss';
 import { Link, NavLink} from 'react-router-dom';
 import logoS from '../../assets/images/logo-s.png'
-import { faHome, faUser, faEnvelope, faComputer, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faComputer, faGear, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { useEffect, useState } from 'react';
-import Logo from './Logo/Logo'
 
 
-
-export default function Home(){
-
-    const [letterClass, setLetterClass] = useState('text-animate')
-
-
-    useEffect(() =>{
-        const timer = setTimeout(() =>{
-            setLetterClass('text-animate-hover')
-        }, 4000)
-    }, [])
-
-
+export default function Skills(){
     return(
         <div>
-        <div className='nav-bar'>
+            <div className='nav-bar'>
             <Link className='logo' to='/'>
                 <img className='img' src={logoS} alt="logo" />
             </Link>
@@ -59,29 +44,6 @@ export default function Home(){
                 
             </ul>
         </div>
-
-        <div className="container home-page">
-            <div className="text-zone">
-                <h1>
-                    <span className={letterClass}>H</span>
-                    <span className={`${letterClass} _12`}>i</span>
-                    <br />
-                    <span className={`${letterClass} _13`}>I</span>
-                    <span className={`${letterClass} _14`}>'m</span>
-                    <img src={logo} alt="" />
-                    <span className={`${letterClass} _15`}>o</span>
-                    <span className={`${letterClass} _16`}>l</span>
-                    <span className={`${letterClass} _17`}>a</span>
-                    <span className={`${letterClass} _18`}>n</span>
-                    <span className={`${letterClass} _19`}>a</span>
-                </h1>
-                <h2>Fullstack developer</h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME!</Link>
-            </div>
-            <Logo/>
         </div>
-
-
-    </div>
     )
 }

@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import logoS from '../../assets/images/logo-s.png'
-import { faHome, faUser, faEnvelope, faComputer } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faComputer, faGear } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -41,6 +41,9 @@ export default function About(){
                 <NavLink exact= 'true' activeclassname='active' className='projects-link' to='/projects'>
                     <FontAwesomeIcon icon={faComputer} color= '#171219' />
                     </NavLink>
+                    <NavLink exact= 'true' activeclassname='active' className='skills-link' to='/skills'>
+                    <FontAwesomeIcon icon={faGear} color= '#171219' />
+                </NavLink>
                 <NavLink exact= 'true' activeclassname='active' className='contact-link' to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color= '#171219' />
                 </NavLink>
