@@ -21,6 +21,9 @@ export default function SideBar(){
                 <NavLink exact= 'true' activeclassname='active' className='projects-link' to='/projects'>
                     <FontAwesomeIcon icon={faComputer} color= '#171219' />
                 </NavLink>
+                {/* <NavLink exact= 'true' activeclassname='active' className='skills-link' to='/skills'>
+                    <FontAwesomeIcon icon={faGear} color= '#171219' />
+                </NavLink> */}
                 <NavLink exact= 'true' activeclassname='active' className='contact-link' to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color= '#171219' />
                 </NavLink>

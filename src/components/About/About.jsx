@@ -1,15 +1,9 @@
-import { Link, NavLink } from 'react-router-dom';
-import logoS from '../../assets/images/logo-s.png'
-import { faHome, faUser, faEnvelope, faComputer, faGear } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+import SideBar from '../SideBar/SideBar'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper";
 import Particless from '../Particules/Particles';
-import { Loader } from 'react-loaders';
-
-
 import html from '../../assets/images/html.svg';
 import js from '../../assets/images/js.svg';
 import react from '../../assets/images/react.svg';
@@ -19,7 +13,6 @@ import node from '../../assets/images/nodejs.svg';
 import express from '../../assets/images/express.svg';
 import post from '../../assets/images/pgsql.svg';
 import seq from '../../assets/images/sequelize.svg';
-
 import './About.scss'
 
 
@@ -27,40 +20,7 @@ export default function About(){
     return(
         
         <div>
-           <div className='nav-bar'>
-            <Link className='logo' to='/'>
-                <img className='img' src={logoS} alt="logo" />
-            </Link>
-            <nav>
-                <NavLink exact= 'true' activeclassname='active' to='/'>
-                    <FontAwesomeIcon icon={faHome} color= '#171219' />
-                </NavLink>
-                <NavLink exact= 'true' activeclassname='active' className='about-link' to='/about'>
-                    <FontAwesomeIcon icon={faUser} color= '#171219' />
-                </NavLink>
-                <NavLink exact= 'true' activeclassname='active' className='projects-link' to='/projects'>
-                    <FontAwesomeIcon icon={faComputer} color= '#171219' />
-                    </NavLink>
-                    <NavLink exact= 'true' activeclassname='active' className='skills-link' to='/skills'>
-                    <FontAwesomeIcon icon={faGear} color= '#171219' />
-                </NavLink>
-                <NavLink exact= 'true' activeclassname='active' className='contact-link' to='/contact'>
-                    <FontAwesomeIcon icon={faEnvelope} color= '#171219' />
-                </NavLink>
-            </nav>
-            <ul>
-                <li>
-                    <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/solana-romero/">
-                <FontAwesomeIcon icon={faLinkedin} color= '#171219' />
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" rel='noreferrer' href="https://github.com/solanamr">
-                <FontAwesomeIcon icon={faGithub} color= '#171219' />
-                    </a>
-                </li>
-            </ul>
-         </div>
+            <SideBar/>
 
             
          <div className='container about-page'> 
@@ -80,32 +40,32 @@ export default function About(){
 
             
             <Swiper
-                    spaceBetween={30}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
                     }}
-                    modules={[Autoplay]}
-                    className="mySwiper">
+            modules={[Autoplay]}
+            className="mySwiper">
 
-                    <SwiperSlide><img src={html} alt="html" /></SwiperSlide>
-                    <SwiperSlide><img src={js} alt="js" /></SwiperSlide>
-                    <SwiperSlide><img src={react} alt="react" /></SwiperSlide>
-                    <SwiperSlide><img src={redux} alt="redux" /></SwiperSlide>
-                    <SwiperSlide><img src={css} alt="css" /></SwiperSlide>
-                    <SwiperSlide><img src={node} alt="node" /></SwiperSlide>
-                    <SwiperSlide><img src={express} alt="express" /></SwiperSlide>
-                    <SwiperSlide><img src={post} alt="post" /></SwiperSlide>
-                    <SwiperSlide><img src={seq} alt="seq" /></SwiperSlide>
+            <SwiperSlide><img src={html} alt="html" /></SwiperSlide>
+            <SwiperSlide><img src={js} alt="js" /></SwiperSlide>
+            <SwiperSlide><img src={react} alt="react" /></SwiperSlide>
+            <SwiperSlide><img src={redux} alt="redux" /></SwiperSlide>
+            <SwiperSlide><img src={css} alt="css" /></SwiperSlide>
+            <SwiperSlide><img src={node} alt="node" /></SwiperSlide>
+            <SwiperSlide><img src={express} alt="express" /></SwiperSlide>
+            <SwiperSlide><img src={post} alt="post" /></SwiperSlide>
+            <SwiperSlide><img src={seq} alt="seq" /></SwiperSlide>
 
-                </Swiper>
+            </Swiper>
+            
             <div className='particles'>
-                    <Particless/> 
+                <Particless/> 
             </div>
                 
          </div>
-         
 
         </div>
     )

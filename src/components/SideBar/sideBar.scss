@@ -1,11 +1,11 @@
 .nav-bar{
     background: #EDF060;
-    width: 90px;
+    min-width: 6em;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: 10em;
 
 
     .logo{
