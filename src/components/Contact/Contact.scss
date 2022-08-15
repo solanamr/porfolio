@@ -1,5 +1,3 @@
-
-
 .contact-page{
     .text-zone{
         position: absolute;
@@ -188,8 +186,8 @@ button {
 .info-map{
     position: absolute;
     background-color:#25282b;
-    top: 50px;
-    right: 30%;
+    top: 120px;
+    right: 32%;
     z-index: 999999;
     width: 200px;
     padding: 20px;
@@ -215,11 +213,230 @@ button {
     height: 100%;
 }
 
-.leaflet-container{
-    width: 100%;
-    height: 100%;
+.iframe{
+    // width: 100%;
+    // height: 100%;
     position: relative;
     opacity: 0;
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
 }
+
+
+@media screen and (max-width: 75em){
+
+    .contact-page{
+
+        .text-zone{
+            // margin-top: -4em;
+            width: 25em;
+            margin-left: 1em;
+            p{
+                font-size: 2em; 
+                width: 0.2em;
+            }
+            .box1{
+                width: 40em;
+                
+                .h1{
+                    font-size: 4em;
+                    
+                }
+            }
+            .box2{
+                width: 60em;
+                right: 1em;
+            
+                .h1-2{
+                    font-size: 5em;
+                    margin-top: 0.6em;
+                }
+            }
+
+            .contact-form{
+                li.half{
+                    width: 100%;
+                    margin-left: 0.8%;
+                    float: left;
+                    clear: none;
+            
+            
+            // &:first-child{
+            //     margin-left: 0;
+            //     }
+            }
+        }
+     }
+ }
+
+    .iframe{
+        width: 100%;
+        height: 67em;
+    }
+    .info-map{
+    top: 120px;
+    right: 27%;
+    width: 10.5em;
+    padding: 20px;
+   
+    }
+
+}
+
+
+
+@media screen and (max-width: 48em){
+
+    .contact-page{
+
+        .text-zone{
+            // margin-top: -4em;
+            width: 25em;
+            margin-left: 1em;
+            p{
+                font-size: 1em; 
+                width: 0.2em;
+            }
+            .box1{
+                width: 40em;
+                
+                .h1{
+                    font-size: 2.4em;
+                    
+                }
+            }
+            .box2{
+                width: 60em;
+                right: 1.3em;
+            
+                .h1-2{
+                    font-size: 3.7em;
+                    margin-top: 0.7em;
+                }
+            }
+
+            .contact-form{
+                li.half{
+                    width: 100%;
+                    margin-left: 0.9%;
+                    float: left;
+                    clear: none;
+                }
+            }
+        }
+    }
+
+    .iframe{
+        width: 100%;
+        height: 58em;
+    }
+    .info-map{
+    top: 80px;
+    right: 20%;
+    width: 10.5em;
+    padding: 20px;
+   
+    }
+
+}
+
+
+@media screen and (max-width: 32em){
+
+    .contact-page{
+
+        .text-zone{
+            margin-top: -4em;
+            width: 25em;
+            margin-left: 5em;
+            p{
+                font-size: 1.4em; 
+                width: 0.2em;
+            }
+            .box1{
+                width: 40em;
+                right: 0;
+                left: 0;
+                
+                .h1{
+                    font-size: 3em;
+                }
+            }
+            .box2{
+                width: 60em;
+                right: 1.3em;
+            
+                .h1-2{
+                    font-size: 4em;
+                    margin-top: 0.7em;
+                }
+            }
+
+            .contact-form{
+                
+                li.half{
+                    width: 99%;
+                    margin-left: 1%;
+                    float: left;
+                    clear: none;
+                }
+
+            }
+        }
+    }
+
+    .iframe, .info-map{
+        display: none;
+    }
+
+}
+
+// @media screen and (max-width: 20em){
+
+//     .contact-page{
+
+//         .text-zone{
+//             margin-top: -4em;
+//             width: 25em;
+//             margin-left: 5em;
+//             p{
+//                 font-size: 1em; 
+//                 width: 0.2em;
+//             }
+//             .box1{
+//                 width: 40em;
+//                 right: 0;
+//                 left: 0;
+                
+//                 .h1{
+//                     font-size: 3em;
+//                 }
+//             }
+//             .box2{
+//                 width: 60em;
+//                 right: 1.3em;
+            
+//                 .h1-2{
+//                     font-size: 4em;
+//                     margin-top: 0.7em;
+//                 }
+//             }
+
+//             .contact-form{
+                
+//                 li.half{
+//                     width: 99%;
+//                     margin-left: 1%;
+//                     float: left;
+//                     clear: none;
+//                 }
+
+//             }
+//         }
+//     }
+
+//     .iframe, .info-map{
+//         display: none;
+//     }
+
+// }

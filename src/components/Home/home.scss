@@ -2,7 +2,7 @@
 .home-page{
     .text-zone{
         position: absolute;
-        left: 15rem;
+        left: 120px;
         top: 50%;
         transform: translateY(-50%);
         min-width: 40rem;
@@ -85,3 +85,14 @@
     }
 }
 
+
+@media screen and (max-width:400px){
+    .home-page{
+        .text-zone{
+            left: 80px;
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+}

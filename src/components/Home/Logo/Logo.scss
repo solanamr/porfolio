@@ -6,8 +6,8 @@
 }
 
 
-// @media (max-width:40em){
-//     .anim{
-//         margin-bottom: 100em;
-//     }
-// }
+@media screen and (max-width:720px){
+    .anim{
+        display: none;
+    }
+}

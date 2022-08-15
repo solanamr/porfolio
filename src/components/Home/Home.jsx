@@ -37,7 +37,7 @@ export default function Home(){
                     <span className={`${letterClass} _18`}>n</span>
                     <span className={`${letterClass} _19`}>a</span>
                 </h1>
-                <h2>Fullstack developer</h2>
+                <h2 className='h2'>Fullstack developer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME!</Link>
             </div>
             <Logo/>

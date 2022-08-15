@@ -13,6 +13,9 @@ import node from '../../assets/images/nodejs.svg';
 import express from '../../assets/images/express.svg';
 import post from '../../assets/images/pgsql.svg';
 import seq from '../../assets/images/sequelize.svg';
+import git from '../../assets/images/git.svg'
+import github from '../../assets/images/githubw.svg';
+import ex from '../../assets/images/expressw.png'
 import './About.scss'
 
 
@@ -31,11 +34,13 @@ export default function About(){
                 <div className='box2'>
                     <h1 className='h1-2'>About me</h1>
                 </div>
-                <p>I'm a fullstack developer living in Santa Fe, Argentina.Really passionate about making beautiful webpages that makes you go "WOW" when you see them.</p>
+                <div className='div-p'>
+                <p className='p'>I'm a fullstack developer living in Santa Fe, Argentina.Really passionate about making beautiful webpages that makes you go "WOW" when you see them.</p>
 
                 <p>I really like working on both front and back-end projects. I'm funny, a team player and naturally curious. Working hard to learn new technologies that can make me grow in the industry.</p>
 
                 <p>Well-organised person, a great baker and a fan of TV series and movies. A lover of coffee and a good meal.</p>
+                </div>
             </div>
 
             
@@ -58,8 +63,12 @@ export default function About(){
             <SwiperSlide><img src={express} alt="express" /></SwiperSlide>
             <SwiperSlide><img src={post} alt="post" /></SwiperSlide>
             <SwiperSlide><img src={seq} alt="seq" /></SwiperSlide>
+            <SwiperSlide><img src={git} alt="git" /></SwiperSlide>
+            <SwiperSlide><img src={github} alt="github" /></SwiperSlide>
+
 
             </Swiper>
+            
             
             <div className='particles'>
                 <Particless/> 

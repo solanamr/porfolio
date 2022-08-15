@@ -1,11 +1,10 @@
 .nav-bar{
     background: #EDF060;
-    min-width: 6em;
+    width: 65px;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 10em;
 
 
     .logo{
@@ -124,3 +123,8 @@
 }
 
 
+@media screen and (max-width:400px){
+    .nav-bar{
+        height: 100%;
+    }
+}
