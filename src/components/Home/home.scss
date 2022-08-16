@@ -1,4 +1,3 @@
-
 .home-page{
     .text-zone{
         position: absolute;
@@ -86,7 +85,7 @@
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (min-width: 20em) and (max-width: 32em){
     .home-page{
         .text-zone{
             left: 80px;

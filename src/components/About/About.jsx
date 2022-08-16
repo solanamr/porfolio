@@ -15,7 +15,6 @@ import post from '../../assets/images/pgsql.svg';
 import seq from '../../assets/images/sequelize.svg';
 import git from '../../assets/images/git.svg'
 import github from '../../assets/images/githubw.svg';
-import ex from '../../assets/images/expressw.png'
 import './About.scss'
 
 
@@ -43,7 +42,7 @@ export default function About(){
                 </div>
             </div>
 
-            
+            <div>
             <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -68,7 +67,7 @@ export default function About(){
 
 
             </Swiper>
-            
+            </div>
             
             <div className='particles'>
                 <Particless/> 

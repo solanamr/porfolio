@@ -1,10 +1,7 @@
 import './Contact.scss'
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import SideBar from '../SideBar/SideBar';
-
-
 
 
 export default function Contact(){
@@ -37,7 +34,7 @@ export default function Contact(){
     return(
     <div>
        <SideBar/>
-        <div className='padre'>
+        <div>
             <div className='container contact-page'>
                 <div className='text-zone'>
                         <div className='box1'>
@@ -84,11 +81,11 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className='info-map'>
-                    Solana Romero
+                    Solana, Romero.
                     <br />
-                     Argentina
+                     Argentina.
                      <br />
-                     Santa Fe <br />
+                     Santa Fe. <br />
                      <span>romerosolana@gmail.com</span>
                 </div>
                 <div className='map-wrap'>

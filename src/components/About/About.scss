@@ -136,6 +136,22 @@
 
 @media screen and (min-width: 20em) and (max-width: 32em){
     .about-page{
+        div .swiper{
+            margin-left: 60em;
+        }
+            .mySwiper {
+                width: 20%;
+                height: 20%;
+                // margin-left: -13em;
+                top: 21rem;
+               
+              }
+              .swiper-slide img {
+                width: 8em;
+                height: 8em;
+                object-fit: cover;
+              }
+          
         .text-zone{
             top: 20em;
             position: absolute;
@@ -144,20 +160,20 @@
                 font-size: 2em;
                 // left: 8rem;
             }
-            .h1-2{
-                font-size: 3em;
-            }
             .box1{
                 // border: 1px solid blue;
                 width: 20em;
                 left: 4rem;
             }
-
+            
             .box2{
                 // border: 1px solid red;
                 width: 40em;
-                left: 2rem;
-                top: 1em;
+                left: 3rem;
+                top: 1.4em;
+                .h1-2{
+                    font-size: 3em;
+                }
             }
             .p{
                 left: 45em;
@@ -172,16 +188,5 @@
                 width: 20em;
             }
         }
-        .mySwiper {
-            width: 20%;
-            height: 20%;
-            margin-left: 13em;
-            top: 30rem;
-          }
-          .swiper-slide img {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
     }
 }
