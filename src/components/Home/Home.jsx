@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import Logo from './Logo/Logo'
 
 
+
 export default function Home(){
 
     const [letterClass, setLetterClass] = useState('text-animate')

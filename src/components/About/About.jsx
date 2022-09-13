@@ -13,8 +13,10 @@ import node from '../../assets/images/nodejs.svg';
 import express from '../../assets/images/express.svg';
 import post from '../../assets/images/pgsql.svg';
 import seq from '../../assets/images/sequelize.svg';
+import mdb from '../../assets/images/mdb.svg';
 import git from '../../assets/images/git.svg'
 import github from '../../assets/images/githubw.svg';
+import figma from '../../assets/images/figma.svg';
 import './About.scss'
 
 
@@ -53,18 +55,18 @@ export default function About(){
             modules={[Autoplay]}
             className="mySwiper">
 
-            <SwiperSlide><img src={html} alt="html" /></SwiperSlide>
-            <SwiperSlide><img src={js} alt="js" /></SwiperSlide>
-            <SwiperSlide><img src={react} alt="react" /></SwiperSlide>
-            <SwiperSlide><img src={redux} alt="redux" /></SwiperSlide>
-            <SwiperSlide><img src={css} alt="css" /></SwiperSlide>
-            <SwiperSlide><img src={node} alt="node" /></SwiperSlide>
-            <SwiperSlide><img src={express} alt="express" /></SwiperSlide>
-            <SwiperSlide><img src={post} alt="post" /></SwiperSlide>
-            <SwiperSlide><img src={seq} alt="seq" /></SwiperSlide>
-            <SwiperSlide><img src={git} alt="git" /></SwiperSlide>
-            <SwiperSlide><img src={github} alt="github" /></SwiperSlide>
-
+            <SwiperSlide><img src={html} alt="html" /> <p color='white'>HTML</p></SwiperSlide>
+            <SwiperSlide><img src={js} alt="js" /> <p color='white'>Javascript</p></SwiperSlide>
+            <SwiperSlide><img src={react} alt="react" /> <p color='white'>React.js</p></SwiperSlide>
+            <SwiperSlide><img src={redux} alt="redux" /> <p color='white'>Redux</p></SwiperSlide>
+            <SwiperSlide><img src={css} alt="css" /> <p color='white'>CSS</p></SwiperSlide>
+            <SwiperSlide><img src={node} alt="node" /> <p color='white'>Node.js</p></SwiperSlide>
+            <SwiperSlide><img src={express} alt="express" /> <p color='white'>Express</p></SwiperSlide>
+            <SwiperSlide><img src={post} alt="post" /> <p color='white'>PostgreSQL</p></SwiperSlide>
+            <SwiperSlide><img src={seq} alt="seq" /> <p color='white'>Sequelize</p></SwiperSlide>
+            <SwiperSlide><img src={mdb} alt="mdb" /> <p color='white'>MongoDB</p></SwiperSlide>
+            <SwiperSlide><img src={git} alt="git" /> <p color='white'>Git</p></SwiperSlide>
+            <SwiperSlide><img src={github} alt="github" /> <p color='white'>Github</p></SwiperSlide>
 
             </Swiper>
             </div>

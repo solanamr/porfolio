@@ -11,10 +11,10 @@
         max-height: 90%;
 
         .h1{
-            font-size: 5em;
-            font-family: Helvetica, sans-serif;
+            font-size: 7em;
+            font-family: 'Roboto', sans-serif;
             color: #DEE2E6;
-            font-weight: 600;
+            font-weight: 900;
             position: relative;
             margin-top: 40px;
             left: 14px;
@@ -22,10 +22,10 @@
             
         }
         .h1-2{
-            font-size: 7em;
-            font-family: Helvetica, sans-serif;
+            font-size: 9em;
+            font-family: 'Roboto', sans-serif;
             color: #DEE2E6;
-            font-weight: 600;
+            font-weight: 700;
             // margin-top: 0;
             margin-top: 25px;
             left: 10px;
@@ -48,7 +48,7 @@
             font-size: 1.4em;
             font-style: 13px;
             color: #DEE2E6;
-            font-family: sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-weight: 300;
             min-width: fit-content;
             animation: pulse 1s;
@@ -78,6 +78,12 @@
         width: 200px;
         height: 200px;
         object-fit: cover;
+      }
+      .swiper-slide p{
+        color: white;
+        margin-left: 4em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
       }
 }
 
