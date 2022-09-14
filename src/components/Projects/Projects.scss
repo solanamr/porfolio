@@ -44,6 +44,9 @@
     .project-box{
         margin-left: 80px;
         margin-top: 20px;
+        scroll-behavior:smooth ;
+        
+       
 }
     .project-cont{
         // border: 1px solid blue;
@@ -51,6 +54,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        
         
     }
 }
@@ -91,7 +95,12 @@
 
 @media screen and (max-width: 75em){
     .project-container{
+        img{
+            width: 30em;
+            height: 20em;
+        }
         .project-box{
+            // border: 1px solid red;
             margin-left: 13em;
             margin-top: 5em;
             display: flex;
@@ -99,8 +108,10 @@
         }
     }
 
+
     .project-div{
         position: relative;
+        // border: 1px solid blue;
     }
 }
    
@@ -109,9 +120,13 @@
     
     .project-container{
 
+        img{
+            width: 20em;
+            height: 15em;
+        }
         .project-box{
-            margin-left: 20em;
-            margin-top: 40px;
+            margin-left: 10em;
+            margin-top: 15em;
         }
         
         .span{
@@ -119,10 +134,15 @@
             color: #EDF060;
         }
 
-        img{
-            width: 27em;
-            height: 17em;
+        .desc{
+            font-size: 0.9em;
+            color: white;
         }
+
+        // img{
+        //     width: 27em;
+        //     height: 17em;
+        // }
 
         .fonta{
             font-size: 0.3em;
@@ -155,13 +175,13 @@
 
 
 
-@media screen and (min-width: 20em) and (max-width: 32em){
+@media screen and  (max-width: 32em){
     
     .project-container{
 
         .project-box{
-            margin-left: 13em;
-            margin-top: 40px;
+            margin-left: 9em;
+            margin-top: 1em;
         }
         
         .span{
@@ -170,8 +190,8 @@
         }
 
         img{
-            width: 20rem;
-            height: 13em;
+            width: 13em;
+            height: 15em;
         }
 
         .fonta{
@@ -180,8 +200,8 @@
         }
         
         .project-div{
-            display: flex;
             // border: 1px solid red;
+            display: flex;
             height: 15em;
             margin-top: 2em;
 
