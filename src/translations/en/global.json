@@ -1,0 +1,97 @@
+{
+    "navBar":{
+    "home":"Home",
+    "about":"About",
+    "skills":"Skills",
+    "projects":"Projects",
+    "contact":"Contact"
+    },
+    "home":{
+        "dev": "Fullstack dev",
+        "front": "A developer orienteded to frontend"
+    },
+    "about":{
+        "who":"Who am I",
+        "description": " Hi there! I'm Solana a fullstack developer based in Santa Fe, Argentina. My main interest is making frontend developments, since is what I really enjoy doing. Currently, I'm working in that position, learning new things every single day, pair programming with co-workers and just having fun. I'm a team player all the way, because I love making people laugh and helping others anytime I can. I'm always open to new oportunities that help me grow profesionally, that's why I'm a very responsable person, like to give my opinion whenever is needed and support good causes."
+    },
+    "skills":{
+        "skills":"Skills & tools",
+        "desc": "Skills, tools and technologies I use to bring ideas to life."
+    },
+    "projects":{
+        "title": "Projects",
+        "subtitle": "A selection of my range of work"
+    },
+    "pi":{
+        "title": "Food application",
+        "subtitle": "Henry bootcamp first project",
+        "project": "Project's goals",
+        "goals": "Individual project to portray the concepts learned in the bootcamp.",
+        "techs": "Technologies used for this project",
+        "desc1": "In this app you can checkout 100 food recipes from an API. You can search for recipes by name, filter and sort them. You can also create your own new recipe. For the filtering and sorting functionalities, I wasn't allowed to use the external API endpoints that already return the filtered or sorted results, so I had to do them myself.",
+        "desc2": "If you want to know more about this project don't hesitate to check it out. Here's the deployment and the GitHub respository links:",
+        "link1": "Recipe app",
+        "link2": "Github repository"
+    },
+    "pf":{
+        "title": "E-commerce Concerteck",
+        "subtitle": "Henry bootcamp second project",
+        "project": "Project's goals",
+        "goals": "Groupal project to portray the concepts learned in the bootcamp, learn the best practices, learn and practice the GIT workflow, teamwork and soft skills development.",
+        "techs": "Technologies used for this project",
+        "desc1": "Concerteck was made as a final examen for Henry bootcamp. It's an e-commerce to buy/sell tickets to events (mostly concerts). In the landing you can see the concerts and sections: big and small events. You have a calendar where you can see when all the events are going to happen, as well as forms to work with the e-commerce or leave comments or reviews.",
+        "desc2": "As a",
+        "desc3": "registered user",
+        "desc4": "you can have an account, like events, check your purchase and of course your own shopping cart. Also you can access to live events that you bought through the icon provided once the event goes live.",
+        "desc5": "administrator",
+        "desc6": "you will also have access to the administration section of the app. Here you'll be able to manage the existing events, the existing users, manage purchases. You will also be able to check out the sales metrics.",
+        "desc7": "If you want to know more about this project don't hesitate to check it out. Here's the deployment and the GitHub respository links:",
+        "link1": "Concerteck app",
+        "link2": "Github repository"
+    },
+    "weather":{
+        "title": "Weather app",
+        "subtitle": "Henry bootcamp project",
+        "project": "Project's goals",
+        "goals": "Project to portray the concepts learned in the bootcamp",
+        "techs": "Technologies used for this project",
+        "desc1": "In this app you can checkout the weather of 6 cities/countries from an API. This project was made simply just to portray the things learned in the second module of the bootcamp.",
+        "desc2": "If you want to know more about this project don't hesitate to check it out. Here's the deployment and the GitHub respository links:",
+        "link1": "Weather app",
+        "link2": "Github repository"
+    },
+    "crypto":{
+        "title": "Cryptos app",
+        "subtitle": "Betriax challenge/test",
+        "project": "Project's goals",
+        "goals": "Portray the knowledge and experience to pass the test",
+        "techs": "Technologies used for this project",
+        "desc1": "In this app you can checkout 50 cryptos from an API. You can search for cryptos by name. You can see the details of every crypto, too.",
+        "desc2": "If you want to know more about this project don't hesitate to check it out. Here's the deployment and the GitHub respository links:",
+        "link1": "Cryptos test",
+        "link2": "Github repository"
+    },
+    "dolar":{
+        "title": "Dolar boliviano app",
+        "subtitle": "Betriax application",
+        "project": "Project's goals",
+        "goals": "Web to introduce the startup in Bolivia",
+        "techs": "Technologies used for this project",
+        "desc1": "Introduction of Betriax in Bolivia.",
+        "desc2": "If you want to know more about this project don't hesitate to check it out. Here's the deployment link:",
+        "link1": "Dolar boliviano"
+    },
+    "filmbox":{
+        "title": "Filmbox app",
+        "subtitle": "Company challenge/test",
+        "project": "Project's goals",
+        "goals": "Portray the knowledge and experience to pass the test",
+        "techs": "Technologies used for this project",
+        "desc1": "In this app you can checkout 15 movies made from a JSON by myself. You can search for movies by name, add any movie you want, delete them and sort them by genre and alphabetically. You can see the details of every movie, too.",
+        "desc2": "If you want to know more about this project don't hesitate to check it out. Here's the GitHub respository link:",
+        "link1": "Github repository"
+        },
+        "contact":{
+            "title": "If you are interested in working together, please, send me a message so we can get in contact!"
+        }
+}

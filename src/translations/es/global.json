@@ -1,0 +1,97 @@
+{
+    "navBar":{
+        "home":"Home",
+        "about":"Sobre mí",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+    "home":{
+        "dev": "Fullstack dev",
+        "front": "Desarolladora con orientación al frontend"
+    },
+    "about":{
+        "who":"Quien soy",
+        "description": "Hola! Soy Solana, una desarrolladora fullstack viviendo en Santa Fe, Argentina. Mi principal interés es hacer desarrollo frontend, ya que, es lo que más me disfruto hacer. Actualmente estoy trabajando en esa posición, aprendiendo cosas nuevas todos los días, haciendo pair programming con mis compañeros de trabajo y divirtiéndome. Me encanta trabajar en equipo porque me encanta hacer reír a la gente y ayudar a otros siempre que pueda. Siempre estoy abierta a nuevas oportunidades que me ayuden a crecer profesionalmente, es por eso que soy una persona responsable, me gusta dar mi opinión cuando es necesario y apoyar causas justas."
+    },
+    "skills":{
+        "skills":"Skills & herramientas",
+        "desc": "Skills, herramientas y tecnologías que utilizo para darle vida a mis ideas."
+    },
+    "projects":{
+        "title": "Proyectos",
+        "subtitle": "Una selección de mi rango de trabajo"
+    },
+    "pi":{
+        "title": "Food application",
+        "subtitle": "Primer proyecto para SoyHerny bootcamp",
+        "project": "Objetivos del proyecto",
+        "goals": "Proyecto individual para retratar los conceptos aprendidos en el bootcamp.",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "En esta aplicación podes ver 100 recetas de cocina traidas de una API. Podés buscar recetas por nombre, filtrar y ordenarlas. También podes crear tu propia receta. Para los filtros y ordenamientos no tenía permitido utilizar los endopoints que tenía la API, por lo que tuve que hacerlos por mi cuenta.",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá están los links del deploy y del repositorio de Github:",
+        "link1": "App de recetas",
+        "link2": "Repositorio de Github"
+    },
+    "pf":{
+        "title": "E-commerce Concerteck",
+        "subtitle": "Segundo proyecto para SoyHerny bootcamp",
+        "project": "Objetivos del proyecto",
+        "goals": "Proyecto para retratar los conceptos aprendidos en el bootcamp.",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "Concerteck fue realizado como exámen final para el bootcamp SoyHenry. Es un e-commerce para compra/venta de tickets para eventos (mayormente conciertos). En la landing page se pueden ver los conciertos y secciones: Eventos grandes y pequeños. Hay un calendario donde se puede ver todos los eventos que van a pasar, al igual que formularios para trabajar con el e-commerce o dejar comentarios o reseñas.",
+        "desc2": "Como",
+        "desc3": "usuario registrado",
+        "desc4": "podes tener una cuenta, darle me gusta a eventos, chequear tus compras y, por supuesto, tener tu propio carrito de compras.",
+        "desc5": "administrador",
+        "desc6": "tendrás acceso a la sección de administración de la app. Aquí serás capaz de administrar eventos existentes, usuarios y manejar compras. También podrás ver las métricas de ventas.",
+        "desc7": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá están los links del deploy y del repositorio de Github:",
+        "link1": "App de Concerteck",
+        "link2": "Repositorio de Github"
+    },
+    "weather":{
+        "title": "Weather app",
+        "subtitle": "Proyecto para SoyHenry bootcamp",
+        "project": "Objetivos del proyecto",
+        "goals": "Proyecto para retratar los conceptos aprendidos en el bootcamp.",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "En esta app podes ver el clima de 6 ciudades/paises traidas de una API. El proyecto fue hecho, simplemente, para retratar lo aprendido en el segundo módulo del bootcamp",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá están los links del deploy y del repositorio de Github:",
+        "link1": "App del clima",
+        "link2": "Repositorio de Github"
+    },
+    "crypto":{
+        "title": "Cryptos app",
+        "subtitle": "Challenge/test para Betriax",
+        "project": "Objetivos del proyecto",
+        "goals": "Retratar conocimientos y experiencia para pasar el test",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "En ésta aplicación podes ver 50 cryptos traidas de una API. Podes buscar cryptos por nombre. También podes ver el detalle de cada crypto.",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá están los links del deploy y del repositorio de Github:",
+        "link1": "Cryptos test",
+        "link2": "Repositorio de Github"
+    },
+    "dolar":{
+        "title": "Dolar boliviano app",
+        "subtitle": "Betriax application",
+        "project": "Objetivos del proyecto",
+        "goals": "Web para introducir la startup en Bolivia",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "Introducción de Betriax en Bolivia.",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá está el link del deploy:",
+        "link1": "Dolar boliviano"
+    },
+    "filmbox":{
+        "title": "Filmbox app",
+        "subtitle": "Challenge/test para una empresa",
+        "project": "Objetivos del proyecto",
+        "goals": "Retratar conocimientos y experiencia para pasar el test",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "En ésta app podes ver 15 películas creadas en un JSON por mí. Podes buscar películas por nombre, agregar cualquier película que quieras, eliminarlas y ordenarlas tanto alfabéticamente como por género. Podes ver el detalle de cada película, también",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá está el link del repositorio de Github:",
+        "link1": "Repositorio de Github"
+        },
+        "contact":{
+            "title": "Si estás interesado en que trabajemos juntos, por favor, envíame un mensaje así podemos ponernos en contacto!"
+        }
+}

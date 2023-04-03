@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Bob from "./components/Projects/Details/bb";
+import Crypto from "./components/Projects/Details/cypto";
+import Dolar from "./components/Projects/Details/dolar";
+import Filmbox from "./components/Projects/Details/filmbox";
+import Pf from "./components/Projects/Details/PF";
+import Pi from "./components/Projects/Details/PI";
+import Weather from "./components/Projects/Details/weather";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/project/food" element={<Pi />} />
+    <Route path="/project/concerteck" element={<Pf />} />
+    <Route path="/project/weatherApp" element={<Weather />} />
+    <Route path="/project/bobsBurgers" element={<Bob />} />
+    <Route path="/project/crypto" element={<Crypto />} />
+    <Route path="/project/dolar" element={<Dolar />} />
+    <Route path="/project/filmbox" element={<Filmbox />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
