@@ -27,6 +27,7 @@ const Home = () => {
   return (
     <div id="home" className="bg-lightGrey">
 
+      {/* navBar web */}
       <nav className="">
         <div className="hidden lg:flex justify-between items-center">
           <Link to="/">
@@ -58,7 +59,7 @@ const Home = () => {
           </div>
         </div>
 
-
+        {/* navBar mobile */}
         <div className="flex justify-between">
           <img src={logo} alt="logo" className="block lg:hidden w-7 pt-5 ml-4 mb-4" />
               <HiMenuAlt3 
@@ -69,7 +70,7 @@ const Home = () => {
           open && 
           <motion.div 
           initial={{x:300}} animate={{x:0}} 
-          className="fixed right-0 top-0 bg-lightBlue h-screen text-white w-80">
+          className="fixed right-0 top-0 bg-lightBlue h-screen text-white w-80 z-40">
             <div className="flex flex-col gap-8 mt-[40%] ml-[30%]">
             <a href="#home" className="text-xl font-semibold">
             {t("navBar.home")}
@@ -99,7 +100,7 @@ const Home = () => {
             <div className="pl-10">
               <h3 className="pb-4 text-grey text-3xl font-semibold">{t("home.dev")}</h3>
               <div className="bg-lightBlue pr-20 lg:pr-60 pb-1 pl-2 shadow-xl">
-                <h1 className="text-darkGrey font-bold text-4xl lg:text-6xl ">Solana Romero</h1>
+                <h1 className="text-darkGrey font-bold text-3xl lg:text-6xl ">Solana Romero</h1>
               </div>
               <p className="pt-4 text-xl">{t("home.front")}</p>
             </div>

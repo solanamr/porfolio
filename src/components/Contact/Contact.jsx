@@ -49,7 +49,7 @@ const Contact = () => {
             placeholder="Name"
             onChange={(e) => handleChange(e)}
             required
-            className='border border-darkGrey w-60 pl-2 rounded-sm bg-lightGrey py-1 ml-[30%] lg:ml-[43%] mt-7 mb-1'
+            className='border border-darkGrey lg:w-60 pl-2 rounded-sm bg-lightGrey py-1 lg:ml-[43%] mt-7 mb-1'
           />
           <input
             type="email"
@@ -58,7 +58,7 @@ const Contact = () => {
             placeholder="Email"
             onChange={(e) => handleChange(e)}
             required
-            className='border border-darkGrey w-60 pl-2 rounded-sm bg-lightGrey py-1 ml-[30%] lg:ml-[43%] mt-7 mb-1'
+            className='border border-darkGrey lg:w-60 pl-2 rounded-sm bg-lightGrey py-1 lg:ml-[43%] mt-7 mb-1'
           />
           <input
             placeholder="Subject"
@@ -67,7 +67,7 @@ const Contact = () => {
             value={emailData.subject}
             onChange={(e) => handleChange(e)}
             required
-            className='border border-darkGrey w-60 pl-2 rounded-sm bg-lightGrey py-1 ml-[30%] lg:ml-[43%] mt-7 mb-1'
+            className='border border-darkGrey lg:w-60 pl-2 rounded-sm bg-lightGrey py-1 lg:ml-[43%] mt-7 mb-1'
           />
           <textarea
             name="message"
@@ -75,9 +75,9 @@ const Contact = () => {
             placeholder="Message"
             onChange={(e) => handleChange(e)}
             required
-            className='border border-darkGrey w-96 pl-2 rounded-sm bg-lightGrey py-6 ml-[10%] lg:ml-[40%] mt-7 mb-1'
+            className='border border-darkGrey lg:w-96 pl-2 rounded-sm bg-lightGrey py-6  lg:ml-[38%] mt-7 mb-1'
           ></textarea>
-          <button type='submit' className='bg-darkGrey text-lightGrey text-lg w-20 rounded-sm py-1 ml-48 lg:ml-[50%] mt-7 mb-1
+          <button type='submit' className='bg-darkGrey text-lightGrey text-lg w-20 rounded-sm py-1 ml-[77%] lg:ml-[48%] mt-7 mb-1
            hover:bg-grey hover:text-darkGrey transition duration-300 cursor-pointer'>Send</button>
         </div>
       </form>

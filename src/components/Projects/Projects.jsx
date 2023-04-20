@@ -18,8 +18,8 @@ const Projects = () => {
     return (
         <div id="projects" className="pt-10 lg:pt-40">
             <img src={img} alt="" className="invisible lg:visible lg:absolute w-full opacity-70"/>
-            <h1 className="relative text-darkGrey font-bold text-7xl text-center pt-10">{t("projects.title")}</h1>
-            <h3 className="relative text-darkGrey font-bold text-4xl text-center pt-5">{t("projects.subtitle")}</h3>
+            <h1 className="relative text-darkGrey font-bold text-4xl lg:text-7xl text-center pt-10">{t("projects.title")}</h1>
+            <h3 className="relative text-darkGrey font-bold text-xl lg:text-4xl text-center pt-5">{t("projects.subtitle")}</h3>
 
             <div className="flex flex-wrap justify-center pt-5 mt-5 lg:mt-0 bg-lightBlue lg:bg-lightGrey">
                 <Link to="/project/food">
