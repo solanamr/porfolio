@@ -100,7 +100,7 @@ const Dolar = () => {
         {t("dolar.desc2")}
         </p>
         
-          <a href="https://dolarboliviano.com/" className="bg-lightBlue py-2 px-2 text-white ml-40 lg:ml-[43%] mr-5 mb-10 rounded-sm">{t("dolar.link1")}</a>      
+          <a href="https://dolarboliviano.com/" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-40 lg:ml-[43%] mr-5 mb-10 rounded-sm">{t("dolar.link1")}</a>      
           
         
       </div>

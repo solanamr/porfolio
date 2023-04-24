@@ -104,8 +104,8 @@ const Crypto = () => {
         {t("crypto.desc2")}
         </p>
         
-          <a href="https://food-app-solanamr.vercel.app/" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("crypto.link1")}</a>      
-          <a href="https://github.com/solanamr/crypto-Food" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("crypto.link2")}</a>
+          <a href="https://food-app-solanamr.vercel.app/" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("crypto.link1")}</a>      
+          <a href="https://github.com/solanamr/crypto-Food" target="_blank" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("crypto.link2")}</a>
         
       </div>
     );

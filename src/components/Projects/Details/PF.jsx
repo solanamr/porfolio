@@ -130,8 +130,8 @@ const Pf = () => {
         {t("pf.desc7")}
         </p>
 
-        <a href="https://concerteck.vercel.app/" className="bg-lightBlue py-2 px-2 text-white ml-24 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("pf.link1")}</a>
-        <a href="https://github.com/solanamr/concerTeck" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("pf.link2")}</a>
+        <a href="https://concerteck.vercel.app/" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-24 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("pf.link1")}</a>
+        <a href="https://github.com/solanamr/concerTeck" target="_blank" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("pf.link2")}</a>
       </div>
     </div>
   );

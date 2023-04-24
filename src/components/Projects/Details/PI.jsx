@@ -120,8 +120,8 @@ const Pi = () => {
       <p className="font-medium text-center lg:w-[800px] lg:ml-[22%]">{t("pi.desc1")}</p>
       <p className="font-medium text-center lg:w-[800px] lg:ml-[21%] mb-10">{t("pi.desc2")}</p>
       
-        <a href="https://food-app-solanamr.vercel.app/" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("pi.link1")}</a>      
-        <a href="https://github.com/solanamr/PI-Food" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("pi.link2")}</a>
+        <a href="https://food-app-solanamr.vercel.app/" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("pi.link1")}</a>      
+        <a href="https://github.com/solanamr/PI-Food" target="_blank" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("pi.link2")}</a>
       
     </div>
   );

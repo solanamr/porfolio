@@ -103,7 +103,7 @@ const Filmbox = () => {
         {t("filmbox.desc2")}
         </p>
 
-          <a href="https://github.com/solanamr/project-fika" className="bg-lightBlue py-2 px-2 text-white ml-40 lg:ml-[43%] mr-5 mb-10 rounded-sm">{t("filmbox.link1")}</a>     
+          <a href="https://github.com/solanamr/project-fika" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-40 lg:ml-[43%] mr-5 mb-10 rounded-sm">{t("filmbox.link1")}</a>     
         
       </div>
     );

@@ -108,7 +108,7 @@ const Bob = () => {
         out. Here's the GitHub respository link:
       </p>
 
-      <a href="https://github.com/solanamr/bobsBurgers" className="bg-lightBlue">
+      <a href="https://github.com/solanamr/bobsBurgers" target="_blank" className="bg-lightBlue">
         Github respository
       </a>
     </div>

@@ -104,8 +104,8 @@ const StarWars = () => {
         {t("sw.desc2")}
         </p>
 
-        <a href="https://weather-app-ashy-psi.vercel.app/" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("sw.link1")}</a>      
-        <a href="https://github.com/solanamr/WheatherApp" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("sw.link2")}</a>     
+        <a href="https://gualda-challenge.vercel.app/" target="_blank" className="bg-lightBlue py-2 px-2 text-white ml-28 lg:ml-[40%] mr-5 mb-10 rounded-sm">{t("sw.link1")}</a>      
+        <a href="https://github.com/solanamr/gualda-project" target="_blank" className="bg-lightBlue py-2 px-2 text-white mb-10 rounded-sm">{t("sw.link2")}</a>     
         
       </div>
     );
