@@ -7,6 +7,7 @@ import bbs from "../../assets/imgs/bbsApp.png";
 import betriax from "../../assets/imgs/betriax.png";
 import db from "../../assets/imgs/dolar.png";
 import fika from "../../assets/imgs/fika.png";
+import sw from "../../assets/imgs/swApp.png";
 
 import { useTranslation } from "react-i18next";
 
@@ -48,6 +49,10 @@ const Projects = () => {
 
                 <Link to="/project/filmbox">
                     <img src={fika} alt="" className="relative w-96 h-64 px-5 py-5 hover:-translate-y-1 hover:scale-110 duration-300"/>
+                </Link>
+
+                <Link to="/project/starWars">
+                    <img src={sw} alt="" className="relative w-96 h-64 px-5 py-5 hover:-translate-y-1 hover:scale-110 duration-300"/>
                 </Link>
             </div>
         </div>

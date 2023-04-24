@@ -91,6 +91,17 @@
         "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá está el link del repositorio de Github:",
         "link1": "Repositorio de Github"
         },
+    "sw":{
+        "title": "Star wars app",
+        "subtitle": "Challenge/test para una empresa",
+        "project": "Objetivos del proyecto",
+        "goals": "Retratar conocimientos y experiencia para pasar el test",
+        "techs": "Tecnologías utilizadas para éste proyecto",
+        "desc1": "En ésta app podes ver las seis películas de Star Wars. En ellas encontrarás el nombre de cada película, el episodio, director y los personajes. Una vez que clickeas en los personajes, se despliega una segunda vista dónde encontrarás el detalle de cada personaje, como así también su género y color de ojos. Dentro de ésta vista, además podés filtrar los personajes por género y color de ojos.",
+        "desc2": "Si queres saber más sobre éste proyecto, no dudes en chequearlo. Acá está el link del repositorio de Github:",
+        "link1": "App de Star Wars",
+        "link2": "Repositorio de Github"
+        },
         "contact":{
             "title": "Si estás interesado en que trabajemos juntos, por favor, envíame un mensaje así podemos ponernos en contacto!"
         }

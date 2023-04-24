@@ -7,6 +7,7 @@ import Filmbox from "./components/Projects/Details/filmbox";
 import Pf from "./components/Projects/Details/PF";
 import Pi from "./components/Projects/Details/PI";
 import Weather from "./components/Projects/Details/weather";
+import StarWars from "./components/Projects/Details/sw";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Route path="/project/crypto" element={<Crypto />} />
     <Route path="/project/dolar" element={<Dolar />} />
     <Route path="/project/filmbox" element={<Filmbox />} />
+    <Route path="/project/starWars" element={<StarWars />} />
     </Routes>
     </BrowserRouter>
   );
